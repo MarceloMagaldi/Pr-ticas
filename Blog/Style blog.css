@@ -1,6 +1,5 @@
 body {
-    background-color: gray;
-
+    background-color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -53,3 +52,4 @@ h2 {
 p {
   text-align: left;
 }
+
