@@ -2,7 +2,7 @@ body, h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: rgba(236, 236, 236, 0);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100%;
     margin: 0%;
@@ -12,13 +12,21 @@ body, h1 {
 .login-container {
     width: 300px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #e60e0e;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
 }
 
 .button {
-    width: 38px;
+    width: 50px;
     margin: 0 auto;
+}
+
+body {
+  background-color: lightgrey;
+  width: 100px;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 55px;
+  margin: 2px;
 }
