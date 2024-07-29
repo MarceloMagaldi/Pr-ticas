@@ -7,16 +7,27 @@
     <body>
         <form>
             <div id="Inicio">
-                <h1>Preenchas os dados abaixo:</h1>
+                <h1>Dados necessários:</h1>
             </div>
             <hr>
             <div id="dados cadastrais">
                 <label for="name">Nome Completo:</label>
-                <input type="text" id="Nome">
+                <input type="text" id="Nome" required>
                 <hr>
-                <label for="email">E-mail</label>
-                <input type="email" id="email" name="email">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <hr>
+                <p>Sexo:</p>
+                <input type="radio" id="Sexo" name="Masculino" required>Masculino</input>
+                <br>
+                <input type="radio" id="Sexo" name="Feminino" required>Feminino</input> 
+                <hr>
+                <label for="idade">Data de nascimento:</label>
+                <input type="date" id="data" required>
+                <br>
+                <br>
                 <input type="submit">
+                <hr>
             </div>
         </form>
     </body>
