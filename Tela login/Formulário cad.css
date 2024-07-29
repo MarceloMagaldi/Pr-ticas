@@ -4,19 +4,20 @@ body {
     text-align:justify ;
     background-color: bisque;
     margin: 400px; 
-    height: 300px;
+    height: 350px;
     width: 500px;
-    }
+}
 
 form {
     background-color:rgba(153, 194, 187, 0.486);
     margin-bottom: 1px;
     margin-top: 1px;
+    border-radius: 15px;
 }
 
 #submit {
     height: 25px;
-    width: 55px;
+    width: 75px;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -24,4 +25,11 @@ form {
 
 h1 {
     text-align: center;
+    color: blue;
+    
+}
+
+#stylesheet {
+    padding: 15px;
+        
 }
