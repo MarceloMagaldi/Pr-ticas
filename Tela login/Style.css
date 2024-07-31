@@ -29,6 +29,7 @@ h1 {
 
 div {
     width: 50px;
+    height: 10px auto;
     margin: 0 auto;
 }
 
