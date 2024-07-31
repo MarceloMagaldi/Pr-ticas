@@ -12,12 +12,21 @@
                 <section>
                     <h1>CADASTRO:</h1>
                 </section>
-                    <hr>
+
                     <article cadastro>
                         <label for="name">Nome Completo:</label>
                         <input type="text" id="Nome" required/>
-                    </article>    
-                    <hr>
+                    </article> 
+
+                    <br>
+
+                    <section class="data">
+                        <label for="idade">Data de nascimento:</label>
+                        <input type="date" id="data" required/>
+                    </section>
+                    
+                    <br>
+
                     <form id="E-mail">
                         <section email>
                             <label for="email">E-mail:</label>
@@ -29,23 +38,22 @@
                             <input type="email" id="email" name="email" required/>
                         </section>
                     </form>
-                    <hr>
+
+                    <br>
+
                 <section class="sexo">
                     <legend>Sexo:</legend>
-                    
+
                     <input type="radio" id="Sexo" name="drone" value="huey" checked required/>
                     <label for="huey">Masculino</label>
 
                     <input type="radio" id="Sexo" name="drone" value="huey" checked required/>
                     <label for="huey">Feminino</label>
                 </section>
-                    <hr>
-                <section class="data">
-                    <label for="idade">Data de nascimento:</label>
-                    <input type="date" id="data" required/>
-                </section>
+
                     <br>
                     <br>
+                    
                 <div>
                     <input type="button" id="submit" value="Enviar">
                 </div>
