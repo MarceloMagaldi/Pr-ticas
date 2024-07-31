@@ -35,27 +35,28 @@
 
                         <section email>
                             <label for="email">confirmar E-mail:</label>
-                            <input type="email" id="email" name="email" required/>
+                            <input type="email" id="confirmEmail" name="confirmEmail" required/>
                         </section>
                     </form>
 
                     <br>
 
-                <section class="sexo">
-                    <legend>Sexo:</legend>
-
-                    <input type="radio" id="Sexo" name="drone" value="huey" checked required/>
-                    <label for="huey">Masculino</label>
-
-                    <input type="radio" id="Sexo" name="drone" value="huey" checked required/>
-                    <label for="huey">Feminino</label>
-                </section>
+                    <section class="sexo">
+                        <legend>Sexo:</legend>
+            
+                        <input type="radio" id="masculino" name="sexo" value="masculino" required/>
+                        <label for="masculino">Masculino</label>
+            
+                        <input type="radio" id="feminino" name="sexo" value="feminino" required/>
+                        <label for="feminino">Feminino</label>
+                    </section>
 
                     <br>
                     <br>
                     
                 <div>
-                    <input type="button" id="submit" value="Enviar">
+                    <button type="submit">Enviar</button>
+                    <p id="error" class="error"></p>
                 </div>
             </nav>
         </form> 
