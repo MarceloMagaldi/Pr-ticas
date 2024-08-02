@@ -9,6 +9,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
+
 }
 
 .login-container {
@@ -97,4 +98,8 @@ legend {
 
 body {
     background-color: rgb(0, 112, 103);
+}
+
+#password {
+    color: black;
 }
